@@ -41,3 +41,4 @@ build/
 
 # Outputs (optional - uncomment if outputs should not be tracked)
 # outputs/
+data/
