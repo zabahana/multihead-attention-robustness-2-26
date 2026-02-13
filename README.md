@@ -60,17 +60,6 @@ Run the notebooks in order:
 
 Training: 2005–2017 | Validation: 2018–2019 | 22 characteristics, 8 attention heads
 
-## Citation
-
-```bibtex
-@article{abahana2025multihead,
-  title={Inherent Robustness of Multi-Head Attention in Cross-Sectional Asset Pricing: Theory and Empirical Evidence from Finance-Valid Adversarial Attacks},
-  author={Abahana, Zelalem},
-  journal={IEEE},
-  year={2025}
-}
-```
-
 ## License
 
 See repository for license terms.
