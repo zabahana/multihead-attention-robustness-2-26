@@ -30,8 +30,13 @@ This repository implements a feature-token transformer with head-diversity regul
 ├── notebooks/          # Jupyter notebooks for data, training, evaluation
 │   ├── 01_data.ipynb
 │   ├── 02_train_baseline.ipynb
-│   ├── 03_train_adversarial.ipynb
-│   └── 04_train_standard.ipynb
+│   ├── 03_train_standard.ipynb
+│   ├── 04_train_adversarial.ipynb
+│   ├── 05_evaluation.ipynb
+│   ├── 06_summary.ipynb
+│   ├── 07_H_scaling_and_FTTransformer.ipynb
+│   ├── 08_MHD_randomized_stressors_visualization.ipynb
+│   └── 09_MHD_PGD_FGSM_certified.ipynb
 ├── src/
 │   └── models/        # Feature-token transformer implementation
 ├── data/               # Cross-sectional data (not in repo; add locally)
@@ -55,8 +60,13 @@ Run the notebooks in order:
 
 1. **01_data.ipynb** — Load and preprocess cross-sectional data
 2. **02_train_baseline.ipynb** — Train baseline models (OLS, Ridge, XGBoost, MLP)
-3. **03_train_adversarial.ipynb** — Adversarial training for transformer models
-4. **04_train_standard.ipynb** — Standard training for transformer models
+3. **03_train_standard.ipynb** — Standard training for transformer models
+4. **04_train_adversarial.ipynb** — Adversarial training for transformer models
+5. **05_evaluation.ipynb** — Model evaluation and metrics
+6. **06_summary.ipynb** — Results summary
+7. **07_H_scaling_and_FTTransformer.ipynb** — H-scaling ablation and FT-Transformer baseline
+8. **08_MHD_randomized_stressors_visualization.ipynb** — A1–A4 stressor visualization
+9. **09_MHD_PGD_FGSM_certified.ipynb** — FGSM/PGD attack evaluation
 
 Training: 2005–2017 | Validation: 2018–2019 | 22 characteristics, 8 attention heads
 
